@@ -56,7 +56,7 @@ html {
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    align-items: center;
+    gap: 20px;
 }
 
 /* Left side of the contact form */
@@ -65,12 +65,12 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 20px;
     width: 50%;
     height: 100%;
-    padding: 20px;
     border-radius: 5px;
+    padding-top: 20px;
 }
 
 /* About us section */
@@ -92,7 +92,7 @@ html {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #f2f2f265; 
+    background-color: #f2f2f265;
 }
 
 /* placeholder color
